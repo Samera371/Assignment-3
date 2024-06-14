@@ -1,0 +1,65 @@
+body {
+  background-color: aqua;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+div {
+  background-color: rgb(202, 206, 213);
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+}
+.shadow-text {
+  text-shadow: rgb(102, 21, 21) 0.5px 0.5px;
+}
+
+#large-paragraph {
+  font-size: 30px;
+}
+img {
+  float: left;
+}
+.hov {
+  background-color: rgb(226, 214, 237);
+}
+.hov:hover {
+  background-color: rgb(231, 215, 215);
+}
+table {
+  border-collapse: collapse;
+  width: 35%;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  text-decoration-color: brown;
+  border: 2px solid brown;
+  color: black;
+}
+tr:hover {
+  background-color: brown;
+}
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+ul,
+li {
+  display: inline;
+  font-size: 20px;
+  line-height: 1.5;
+  color: brown;
+
+  text-decoration: solid;
+}
+h1,
+h2 {
+  color: brown;
+}
+ul li:hover {
+  background-color: blueviolet;
+}
